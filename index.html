@@ -11,7 +11,30 @@
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-
+    
+    <style>
+        .img_banner_hpbd {
+            background-size: cover;
+        }
+        .img-thumbnail {
+            max-width: 100%;
+            height: auto;
+        }
+        .modal-body img {
+            width: 100%;
+            height: auto;
+        }
+        .containeri {
+            text-align: center;
+        }
+        .modal-body .containeri img {
+            max-width: 100%;
+            height: auto;
+        }
+        .containeri p {
+            font-size: 1em;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,21 +48,15 @@
     </div>
 
     <div class="container">
-        <div class="row ">
-            <div class="col-xs-4 col-md-4 col-sm-4">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-sm-4">
                 <p style="padding-top: 5px"></p>
                 <span class="text-capitalize text-right bottom-align-text">
-                    <!-- <button type="button" class="btn btn-danger btn-lg text-danger" data-toggle="modal" data-target="#myModal">
-                        OPEN CARD
-                    </button> -->
                     <p></p>
             </div>
-            <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
-                <!-- <button type="button" class="">
-                   
-                    </button> -->
+            <div id="bond" class="col-xs-12 col-md-8 col-sm-8 text-center">
                 <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
-                    src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 360px">
+                    src="img/Winter happy birthday.jpg" alt="Happy Birthday">
             </div>
         </div>
     </div>
@@ -53,11 +70,10 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h4 class="modal-title text-info" id="myModalLabel">Thiệp sinh nhật</h4>
-
                 </div>
                 <div class="modal-body">
                     <div class="containeri">
-                        <img class="img img-responsive" src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 560px">
+                        <img class="img img-responsive" src="img/Winter happy birthday.jpg" alt="Happy Birthday">
                         <audio autoplay style="display:none;">
                             <source src="ms/hpbd.MP3" type="audio/ogg" />
                             <source src="ms/hppd.MP3" type="audio/mpeg" />
@@ -65,17 +81,17 @@
                     </div>
                     <h1 class="heading text-danger bg-danger">
                         <div class="containeri">
-                            <img class="img img-responsive" src="img/Snowmen-and-Sledding-Thank-You-Note.jpg.png">
+                            <img class="img img-responsive" src="img/Snowmen-and-Sledding-Thank-You-Note.jpg.png" alt="Thank You Note">
                             <p class="top-right">ĐƯỜNG MINH THƯ</p>
                             <p class="bottom-right">Sinh nhật vui vẻ nha em</p>
                             <p class="top-left">Chúc em luôn xinh đẹp và luôn</p>
                             <p class="and">vui vẻ hạnh phúc.</p>
-                            <p class="center">Cảm ơn em đã đến bên anh.Yêu em!</p>
+                            <p class="center">Cảm ơn em đã đến bên anh. Yêu em!</p>
                             <p class="bottom-left">Nhựt</p>
                         </div>
                     </h1>
                     <div class="containeri">
-                        <img class="img img-responsive" src="img/em.jpg">
+                        <img class="img img-responsive" src="img/em.jpg" alt="Em">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -89,17 +105,133 @@
     <footer class="container-fluid footer navbar-fixed-bottom">
         <div class="container">
             <div class="row">
-        
                 <div class="col-xs-4">
-                    <!-- <p class="text-center text-capitalize kp">HAPPY BIRTHDAY TO YOU! </p> -->
-                    <!-- <img class="img img-responsive" src="img/title.jpg" alt=""> -->
                 </div>
             </div>
         </div>
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <!-- required, default behaviour -->
+    <script src="js/snowstorm-min.js"></script>
+    <script src="js/js01.js"></script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HPBD HHNT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css01.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    
+    <style>
+        .img_banner_hpbd {
+            background-size: cover;
+        }
+        .img-thumbnail {
+            max-width: 100%;
+            height: auto;
+        }
+        .modal-body img {
+            width: 100%;
+            height: auto;
+        }
+        .containeri {
+            text-align: center;
+        }
+        .modal-body .containeri img {
+            max-width: 100%;
+            height: auto;
+        }
+        .containeri p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron img_banner_hpbd">
+            <div class="text-center text-danger bg-danger">
+                <h1>TO: ĐƯỜNG MINH THƯ</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-sm-4">
+                <p style="padding-top: 5px"></p>
+                <span class="text-capitalize text-right bottom-align-text">
+                    <p></p>
+            </div>
+            <div id="bond" class="col-xs-12 col-md-8 col-sm-8 text-center">
+                <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
+                    src="img/Winter happy birthday.jpg" alt="Happy Birthday">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title text-info" id="myModalLabel">Thiệp sinh nhật</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="containeri">
+                        <img class="img img-responsive" src="img/Winter happy birthday.jpg" alt="Happy Birthday">
+                        <audio autoplay style="display:none;">
+                            <source src="ms/hpbd.MP3" type="audio/ogg" />
+                            <source src="ms/hppd.MP3" type="audio/mpeg" />
+                        </audio>
+                    </div>
+                    <h1 class="heading text-danger bg-danger">
+                        <div class="containeri">
+                            <img class="img img-responsive" src="img/Snowmen-and-Sledding-Thank-You-Note.jpg.png" alt="Thank You Note">
+                            <p class="top-right">ĐƯỜNG MINH THƯ</p>
+                            <p class="bottom-right">Sinh nhật vui vẻ nha em</p>
+                            <p class="top-left">Chúc em luôn xinh đẹp và luôn</p>
+                            <p class="and">vui vẻ hạnh phúc.</p>
+                            <p class="center">Cảm ơn em đã đến bên anh. Yêu em!</p>
+                            <p class="bottom-left">Nhựt</p>
+                        </div>
+                    </h1>
+                    <div class="containeri">
+                        <img class="img img-responsive" src="img/em.jpg" alt="Em">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/snowstorm-min.js"></script>
     <script src="js/js01.js"></script>
 
